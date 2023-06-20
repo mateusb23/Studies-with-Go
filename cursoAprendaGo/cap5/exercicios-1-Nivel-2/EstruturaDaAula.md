@@ -1,0 +1,6 @@
+# CONTEÚDO
+
+- Escreva um programa que mostre um número em decimal, binário, e hexadecimal.
+- Solução: [Link](https://play.golang.org/p/X7qm3aWSa6) 
+
+
