@@ -15,6 +15,8 @@ func main() {
 	fmt.Println(fatiadias1)
 	fmt.Println(fatiadias2)
 
+	fmt.Println("-----------------------------------------------")
+
 	// COMO ACESSAR TODOS OS ÍNDICES DE UM slice SEM PRECISAR UTILIZAR O range:
 	todososdias := dias[:]
 	fmt.Println(todososdias)
@@ -24,7 +26,12 @@ func main() {
 		fmt.Println(dias[i])
 	}
 
-	// COMO DELETAR VALORES DE UM slice:
+	// OU
+	for _, v := range dias {
+		fmt.Println(v)
+	}
+
+	// COMO DELETAR VALORES DE UM slice, (nesse caso deletei o valor "abacaxi"):
 	sabores = append(sabores[:2], sabores[3:]...)
 	fmt.Println(sabores)
 
